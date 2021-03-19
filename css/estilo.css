@@ -13,7 +13,7 @@ h6 { font-family: 'Permanent Marker', cursive; }
 h5, p, a, span, form, input, select, textarea, option, button, div { font-family: 'Roboto', sans-serif; }
 
 /* propiedad display: block;a todas las cajas de estructura para que se comporten como cajas */
-header, main, section, footer, aside , article, figure, figcaption, nav ,div { display: block; }
+header, main, section, footer, aside, article, figure, figcaption, nav ,div { display: block; }
 
 /* Quitar margen que taen por defecto los titulos, subtitulos y parrafos */
 h1,h2,h3,h4,h5,h6, p,figure { margin: 0; }
@@ -116,12 +116,9 @@ footer figure a img {width: 100%; height: auto; margin: 0 auto; float: none; pos
 
 footer figure a:hover {transform: scale(1.05);transition: all 0.3s ease-in;}
 
+/* Zona de Media Queries */
 
-
-
-/* zona de media Queries  */
-
-/* tablets */
+/* Tablets */
 @media only screen and (max-width: 1199px){
     header { height: 80px; }
     header article { width: 80%; height: 80px; }
@@ -148,14 +145,16 @@ footer figure a:hover {transform: scale(1.05);transition: all 0.3s ease-in;}
     section#combos article nav { width: 100%; height: auto; }
     section#combos article nav a { width: 290px; height: 197px; margin: 0 auto 25px; float: none; }
     section#combos article nav a:last-child { margin: 0 auto 25px; }
-
 }
 
-/* moviles grandes */
+/* Móviles Grandes */
 @media only screen and (max-width: 499px){
-
+    
 }
 
+/* Móviles Pequeños */
 @media only screen and (max-width: 399px){
-
+    
 }
+
+
